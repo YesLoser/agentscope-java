@@ -92,7 +92,7 @@ AI coding instructions for AgentScope Java.
 - Run from the repository root with `-T1C`.
 - Module tests: `mvn -T1C -pl <module> -am test`.
 - One test: add `-Dtest=<TestClass>` and confirm it ran.
-- Format: `mvn -T1C -pl <module> -am spotless:check`.
+- Format check: `mvn -T1C -pl <module> -am spotless:check`; auto-fix: `mvn spotless:apply`.
 - Full check: `mvn -B -T1C clean verify`.
 
 ### Service and docs
